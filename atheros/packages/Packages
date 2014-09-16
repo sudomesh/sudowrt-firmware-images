@@ -1,0 +1,1586 @@
+Package: base-files
+Version: 118.2-unknown
+Depends: libc, netifd
+Provides: 
+Source: package/base-files
+Section: base
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 31662
+Filename: base-files_118.2-unknown_atheros.ipk
+Size: 32409
+MD5Sum: 4aa3957e3ea35249dbc2da88965a9e75
+Description:  This package contains a base filesystem and system scripts for OpenWrt.
+
+Package: busybox
+Version: 1.19.4-6
+Depends: libc
+Provides: 
+Source: package/busybox
+Section: base
+Status: unknown ok not-installed
+Essential: yes
+Priority: optional
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: atheros
+Installed-Size: 236551
+Filename: busybox_1.19.4-6_atheros.ipk
+Size: 235212
+MD5Sum: 201df9e5da1a6964f6e1d2a8a759afe6
+Description:  The Swiss Army Knife of embedded Linux.
+ It slices, it dices, it makes Julian Fries.
+
+Package: coreutils-nohup
+Version: 8.16-1
+Depends: libc, coreutils
+Provides: 
+Source: feeds/openwrt/utils/coreutils
+Section: utils
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 12693
+Filename: coreutils-nohup_8.16-1_atheros.ipk
+Size: 13401
+MD5Sum: f9dd4d423a13aae4589a95cc9359a81f
+Description:  Full version of standard GNU nohup utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils
+Version: 8.16-1
+Depends: libc
+Provides: 
+Source: feeds/openwrt/utils/coreutils
+Section: utils
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 104
+Filename: coreutils_8.16-1_atheros.ipk
+Size: 775
+MD5Sum: fe7613c53aadbc50ed9ddc367982f07b
+Description:  Full versions of standard GNU utilities. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient and
+ smaller.
+
+Package: dnsmasq
+Version: 2.66-2
+Depends: libc
+Provides: 
+Source: package/dnsmasq
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 86419
+Filename: dnsmasq_2.66-2_atheros.ipk
+Size: 86665
+MD5Sum: 3edc3b523236e3b8c544864f30e4a0d1
+Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
+
+Package: dropbear
+Version: 2011.54-2
+Depends: libc
+Provides: 
+Source: package/dropbear
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 79712
+Filename: dropbear_2011.54-2_atheros.ipk
+Size: 79824
+MD5Sum: a899dc820ce923219dfd3be11641c93e
+Description:  A small SSH2 server/client designed for small memory environments.
+
+Package: firewall
+Version: 2013-06-29
+Depends: libc, libubox, libubus, libuci, libip4tc, libip6tc, libxtables
+Provides: 
+Source: package/firewall
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 48380
+Filename: firewall_2013-06-29_atheros.ipk
+Size: 48636
+MD5Sum: f3f1d24f1eaf057f35d11a492f8e56b6
+Description:  This package provides a config-compatible C implementation of the UCI firewall.
+
+Package: hostapd
+Version: 20131120-1
+Depends: libc, libnl-tiny, libubus
+Provides: 
+Source: package/hostapd
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 230425
+Filename: hostapd_20131120-1_atheros.ipk
+Size: 230484
+MD5Sum: af9327e62052d6c14479f7f05e9b8793
+Description:  This package contains a full featured IEEE 802.1x/WPA/EAP/RADIUS
+ Authenticator.
+
+Package: hotplug2
+Version: 1.0-beta-4
+Depends: libc
+Provides: 
+Source: package/hotplug2
+Section: base
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 14556
+Filename: hotplug2_1.0-beta-4_atheros.ipk
+Size: 15140
+MD5Sum: 5f378a48b4bb415bdf0875d58a626a5d
+Description:  Hotplug2 is a trivial replacement of some of the UDev functionality
+ in a tiny pack, intended for Linux early userspace: Init RAM FS and InitRD.
+ This is an implementation of Hotplug2-1.0-beta
+
+Package: ip
+Version: 3.3.0-2
+Depends: libc, libnl-tiny
+Provides: 
+Source: package/iproute2
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 86998
+Filename: ip_3.3.0-2_atheros.ipk
+Size: 87482
+MD5Sum: fbacf0ab63722d3c5adedef1865e1c91
+Description:  Routing control utility
+
+Package: iptables
+Version: 1.4.10-5
+Depends: libc, kmod-ipt-core, libip4tc, libxtables
+Provides: 
+Source: package/iptables
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 35506
+Filename: iptables_1.4.10-5_atheros.ipk
+Size: 36107
+MD5Sum: 9442f89901f6f0b1ea39afb7bc81372a
+Description:  IPv4 firewall administration tool.
+ 
+ Matches:
+ - icmp
+ - tcp
+ - udp
+ - comment
+ - limit
+ - mac
+ - multiport
+ 
+ Targets:
+ - ACCEPT
+ - DROP
+ - REJECT
+ - LOG
+ - TCPMSS
+ 
+ Tables:
+ - filter
+ - mangle
+ 
+
+Package: iw
+Version: 3.14-1
+Depends: libc, libnl-tiny
+Provides: 
+Source: package/iw
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 41675
+Filename: iw_3.14-1_atheros.ipk
+Size: 42373
+MD5Sum: 51bc721c7f16a2f34af686be5e6f41d4
+Description:  cfg80211 interface configuration utility
+
+Package: jshn
+Version: 2013-10-19-734d28eb1a46358743cf8837c91e5d46695c3b91
+Depends: libc, libjson-c
+Provides: 
+Source: package/libubox
+Section: utils
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 5092
+Filename: jshn_2013-10-19-734d28eb1a46358743cf8837c91e5d46695c3b91_atheros.ipk
+Size: 5754
+MD5Sum: 5fa893cb2464e6f961de7c5d9aaf558f
+Description:  Library for parsing and generating JSON from shell scripts
+
+Package: kmod-ath5k
+Version: 3.3.8+2014-05-22-1
+Depends: kernel (=3.3.8-1-47a77c95fa1065597140557d9764811c), kmod-ath
+Provides: 
+Source: package/mac80211
+Section: kernel
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: atheros
+Installed-Size: 81885
+Filename: kmod-ath5k_3.3.8+2014-05-22-1_atheros.ipk
+Size: 82376
+MD5Sum: 7c5af70c917ef363e6794b9675ce7638
+Description:  This module adds support for wireless adapters based on
+ Atheros 5xxx chipset.
+
+Package: kmod-ath
+Version: 3.3.8+2014-05-22-1
+Depends: kernel (=3.3.8-1-47a77c95fa1065597140557d9764811c), kmod-mac80211
+Provides: 
+Source: package/mac80211
+Section: kernel
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: atheros
+Installed-Size: 11821
+Filename: kmod-ath_3.3.8+2014-05-22-1_atheros.ipk
+Size: 12291
+MD5Sum: fc6702781ffcfac0c9ca59e75f2beaab
+Description:  This module contains some common parts needed by Atheros Wireless drivers.
+
+Package: kmod-batman-adv
+Version: 3.3.8+2013.4.0-1
+Depends: kernel (=3.3.8-1-47a77c95fa1065597140557d9764811c), kmod-lib-crc16, kmod-crypto-core, kmod-crypto-crc32c, kmod-lib-crc32c, libc
+Provides: 
+Source: feeds/routing/batman-adv
+Section: kernel
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Marek Lindner <lindner_marek@yahoo.de>
+Architecture: atheros
+Installed-Size: 91038
+Filename: kmod-batman-adv_3.3.8+2013.4.0-1_atheros.ipk
+Size: 91723
+MD5Sum: 0c93097398099616a500e2a8afa00dc5
+Description:  B.A.T.M.A.N. advanced is a kernel module which allows to
+ build layer 2 mesh networks. This package contains the
+ version 2013.4.0 of the kernel module plus its user space
+ configuration & managerment tool batctl.
+
+Package: kmod-cfg80211
+Version: 3.3.8+2014-05-22-1
+Depends: kernel (=3.3.8-1-47a77c95fa1065597140557d9764811c), iw
+Provides: 
+Source: package/mac80211
+Section: kernel
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: atheros
+Installed-Size: 113216
+Filename: kmod-cfg80211_3.3.8+2014-05-22-1_atheros.ipk
+Size: 113470
+MD5Sum: 9ce26d8e8829c9f626681647f03f2e7e
+Description:  cfg80211 is the Linux wireless LAN (802.11) configuration API.
+
+Package: kmod-crypto-aes
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-47a77c95fa1065597140557d9764811c), kmod-crypto-core
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 12240
+Filename: kmod-crypto-aes_3.3.8-1_atheros.ipk
+Size: 12355
+MD5Sum: 4491b5fe2bbd84a4e2601ce311c52092
+Description:  AES cipher CryptoAPI module
+
+Package: kmod-crypto-arc4
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-47a77c95fa1065597140557d9764811c), kmod-crypto-core
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 1025
+Filename: kmod-crypto-arc4_3.3.8-1_atheros.ipk
+Size: 1803
+MD5Sum: 5480fa248f59e01afc0f75394cf5ca89
+Description:  ARC4 (RC4) cipher CryptoAPI module
+
+Package: kmod-crypto-core
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-47a77c95fa1065597140557d9764811c)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 7637
+Filename: kmod-crypto-core_3.3.8-1_atheros.ipk
+Size: 8401
+MD5Sum: 6c9804e39ed7b8605a4424c71b6e0c9e
+Description:  Core CryptoAPI modules
+
+Package: kmod-crypto-crc32c
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-47a77c95fa1065597140557d9764811c), kmod-crypto-hash, kmod-crypto-core
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 2355
+Filename: kmod-crypto-crc32c_3.3.8-1_atheros.ipk
+Size: 3129
+MD5Sum: 876bd830559c3523f33a6d414679127e
+Description:  CRC32c CRC module
+
+Package: kmod-crypto-hash
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-47a77c95fa1065597140557d9764811c), kmod-crypto-core
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 5816
+Filename: kmod-crypto-hash_3.3.8-1_atheros.ipk
+Size: 6558
+MD5Sum: 2f2f05a4b560e20964043c12f6a7d369
+Description:  CryptoAPI hash support
+
+Package: kmod-gpio-button-hotplug
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-47a77c95fa1065597140557d9764811c)
+Provides: 
+Source: package/gpio-button-hotplug
+Section: kernel
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 3594
+Filename: kmod-gpio-button-hotplug_3.3.8-1_atheros.ipk
+Size: 4337
+MD5Sum: cc2a1e02b2b6f2c9c310b565d1463bf6
+Description:  Simple GPIO Button Hotplug driver
+
+Package: kmod-ipt-conntrack
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-47a77c95fa1065597140557d9764811c), kmod-ipt-core
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 33819
+Filename: kmod-ipt-conntrack_3.3.8-1_atheros.ipk
+Size: 34682
+MD5Sum: 874892e4266b22b5dca40c9a241d0086
+Description:  Netfilter (IPv4) kernel modules for connection tracking
+ Includes:
+ - conntrack
+ - defrag
+ - iptables_raw
+ - NOTRACK
+ - state
+
+Package: kmod-ipt-core
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-47a77c95fa1065597140557d9764811c)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 25878
+Filename: kmod-ipt-core_3.3.8-1_atheros.ipk
+Size: 26618
+MD5Sum: 9c7abc4b54004ae3e969c06d99ccc71e
+Description:  Netfilter core kernel modules
+ Includes:
+ - comment
+ - limit
+ - LOG
+ - mac
+ - multiport
+ - REJECT
+ - TCPMSS
+
+Package: kmod-ipt-nat
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-47a77c95fa1065597140557d9764811c), kmod-ipt-core, kmod-ipt-conntrack
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 10366
+Filename: kmod-ipt-nat_3.3.8-1_atheros.ipk
+Size: 11144
+MD5Sum: 8e202af78864ca29939b16c862bf70aa
+Description:  Netfilter (IPv4) kernel modules for basic NAT targets
+ Includes:
+ - MASQUERADE
+
+Package: kmod-ipt-nathelper
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-47a77c95fa1065597140557d9764811c), kmod-ipt-core, kmod-ipt-nat
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 7485
+Filename: kmod-ipt-nathelper_3.3.8-1_atheros.ipk
+Size: 8320
+MD5Sum: cfdf7337123ae99a1451b9c41c637311
+Description:  Default Netfilter (IPv4) Conntrack and NAT helpers
+ Includes:
+ - ftp
+ - irc
+ - tftp
+
+Package: kmod-l2tp-eth
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-47a77c95fa1065597140557d9764811c), kmod-l2tp
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 2747
+Filename: kmod-l2tp-eth_3.3.8-1_atheros.ipk
+Size: 3502
+MD5Sum: d960260d40e0041ca03fbcee55a19219
+Description:  Kernel modules for L2TP ethernet pseudowire support for L2TPv3
+
+Package: kmod-l2tp-ip
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-47a77c95fa1065597140557d9764811c), kmod-l2tp
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 5012
+Filename: kmod-l2tp-ip_3.3.8-1_atheros.ipk
+Size: 5757
+MD5Sum: 2eb57b0800d4261e062fbad584bf4f74
+Description:  Kernel modules for L2TP IP encapsulation for L2TPv3
+
+Package: kmod-l2tp
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-47a77c95fa1065597140557d9764811c)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 13005
+Filename: kmod-l2tp_3.3.8-1_atheros.ipk
+Size: 13746
+MD5Sum: 6b492b047c95477f61f080a9a2e91015
+Description:  Kernel modules for L2TP V3 Support
+
+Package: kmod-lib-crc-ccitt
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-47a77c95fa1065597140557d9764811c)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 1389
+Filename: kmod-lib-crc-ccitt_3.3.8-1_atheros.ipk
+Size: 2158
+MD5Sum: 3e724593a0399e4acf0bb41ffe5dedda
+Description:  Kernel module for CRC-CCITT support
+
+Package: kmod-lib-crc16
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-47a77c95fa1065597140557d9764811c)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 1339
+Filename: kmod-lib-crc16_3.3.8-1_atheros.ipk
+Size: 2106
+MD5Sum: 096746c558d4514bc38dbae384f791b4
+Description:  Kernel module for CRC16 support
+
+Package: kmod-lib-crc32c
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-47a77c95fa1065597140557d9764811c), kmod-crypto-crc32c
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 1136
+Filename: kmod-lib-crc32c_3.3.8-1_atheros.ipk
+Size: 1920
+MD5Sum: b121c8de40a47aab04cb9cde982dbced
+Description:  Kernel module for CRC32 support
+
+Package: kmod-mac80211
+Version: 3.3.8+2014-05-22-1
+Depends: kernel (=3.3.8-1-47a77c95fa1065597140557d9764811c), kmod-crypto-core, kmod-crypto-arc4, kmod-crypto-aes, kmod-cfg80211
+Provides: 
+Source: package/mac80211
+Section: kernel
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: atheros
+Installed-Size: 203992
+Filename: kmod-mac80211_3.3.8+2014-05-22-1_atheros.ipk
+Size: 203456
+MD5Sum: 5c5dcd9aa8ead6aaefa0e1517b2a2dac
+Description:  Generic IEEE 802.11 Networking Stack (mac80211)
+
+Package: kmod-ppp
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-47a77c95fa1065597140557d9764811c), kmod-lib-crc-ccitt
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 22439
+Filename: kmod-ppp_3.3.8-1_atheros.ipk
+Size: 23145
+MD5Sum: 77c435aae86a9fd4889349b7229aeda3
+Description:  Kernel modules for PPP support
+
+Package: kmod-pppoe
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-47a77c95fa1065597140557d9764811c), kmod-ppp, kmod-pppox
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 6221
+Filename: kmod-pppoe_3.3.8-1_atheros.ipk
+Size: 7039
+MD5Sum: d562135717ae0509f298b08919707038
+Description:  Kernel module for PPPoE (PPP over Ethernet) support
+
+Package: kmod-pppox
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-47a77c95fa1065597140557d9764811c), kmod-ppp
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 1707
+Filename: kmod-pppox_3.3.8-1_atheros.ipk
+Size: 2488
+MD5Sum: 1be1d9a02fa61a9b9dbb55f1c3a9bb2e
+Description:  Kernel helper module for PPPoE and PPTP support
+
+Package: kmod-sched-core
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-47a77c95fa1065597140557d9764811c)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 34451
+Filename: kmod-sched-core_3.3.8-1_atheros.ipk
+Size: 35164
+MD5Sum: 349a075369840de1fad30f3e31572552
+Description:  Core kernel scheduler support for IP traffic
+
+Package: kmod-sched
+Version: 3.3.8-1
+Depends: kernel (=3.3.8-1-47a77c95fa1065597140557d9764811c), kmod-sched-core
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 41461
+Filename: kmod-sched_3.3.8-1_atheros.ipk
+Size: 42140
+MD5Sum: 97e0a8ee36a8f001c7ccc98ece96fb4b
+Description:  Extra kernel schedulers modules for IP traffic
+
+Package: libblobmsg-json
+Version: 2013-10-19-734d28eb1a46358743cf8837c91e5d46695c3b91
+Depends: libc, libjson-c, libubox
+Provides: 
+Source: package/libubox
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 3456
+Filename: libblobmsg-json_2013-10-19-734d28eb1a46358743cf8837c91e5d46695c3b91_atheros.ipk
+Size: 4132
+MD5Sum: 7b854a16c7f25ed7d05acc7e26748274
+Description:  blobmsg <-> json conversion library
+
+Package: libdaemon
+Version: 0.14-2
+Depends: libc
+Provides: 
+Source: feeds/openwrt/libs/libdaemon
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 8046
+Filename: libdaemon_0.14-2_atheros.ipk
+Size: 8972
+MD5Sum: 264c94e2f024d659baf02f63edaa99b0
+Description:  libdaemon is a lightweight C library that eases the writing of UNIX daemons.
+ It consists of the following parts:
+ - A wrapper around fork() which does the correct daemonization procedure of a process
+ - A wrapper around syslog() for simpler and compatible log output to Syslog or STDERR
+ - An API for writing PID files
+ - An API for serializing UNIX signals into a pipe for usage with select() or poll()
+ - An API for running subprocesses with STDOUT and STDERR redirected to syslog
+ 
+ APIs like these are used in most daemon software available. It is not that
+ simple to get it done right and code duplication is not a goal.
+
+Package: libgcc
+Version: 4.6-linaro-1
+Depends: 
+Provides: 
+Source: package/toolchain
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 31561
+Filename: libgcc_4.6-linaro-1_atheros.ipk
+Size: 32151
+MD5Sum: b509599799ace4749c35171e3f92d481
+Description:  GCC support library
+
+Package: libip4tc
+Version: 1.4.10-5
+Depends: libc
+Provides: 
+Source: package/iptables
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 9838
+Filename: libip4tc_1.4.10-5_atheros.ipk
+Size: 10445
+MD5Sum: 17a48e44e573858ed5a5a25f6e80b405
+Description:  IPv4 firewall - shared libiptc library
+
+Package: libip6tc
+Version: 1.4.10-5
+Depends: libc
+Provides: 
+Source: package/iptables
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 10236
+Filename: libip6tc_1.4.10-5_atheros.ipk
+Size: 10848
+MD5Sum: 3712d45f755d787f56fb0dd6f9263f97
+Description:  IPv6 firewall - shared libiptc library
+
+Package: libiwinfo-lua
+Version: 44
+Depends: libc, libiwinfo, liblua
+Provides: 
+Source: package/iwinfo
+Section: lang
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: atheros
+Installed-Size: 6291
+Filename: libiwinfo-lua_44_atheros.ipk
+Size: 6843
+MD5Sum: 3ad326e042607c5ad443c319cb2dd8de
+Description:  This is the Lua binding for the iwinfo library. It provides access to all enabled
+ backends.
+
+Package: libiwinfo
+Version: 44
+Depends: libc, libnl-tiny
+Provides: 
+Source: package/iwinfo
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: atheros
+Installed-Size: 22039
+Filename: libiwinfo_44_atheros.ipk
+Size: 22707
+MD5Sum: 7688f99aa9bcf1139498c3640b6a064f
+Description:  Wireless information library with consistent interface for proprietary Broadcom,
+ madwifi, nl80211 and wext driver interfaces.
+
+Package: libjson-c
+Version: 0.11-2
+Depends: libc
+Provides: 
+Source: package/libjson-c
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 12706
+Filename: libjson-c_0.11-2_atheros.ipk
+Size: 13345
+MD5Sum: c966243ee063d4bb645c83d99b81e156
+Description:  This package contains a library for javascript object notation backends.
+
+Package: liblua
+Version: 5.1.4-8
+Depends: libc
+Provides: 
+Source: package/lua
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 72996
+Filename: liblua_5.1.4-8_atheros.ipk
+Size: 73209
+MD5Sum: 8bcc66332b32bc37941d929b09516676
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua shared libraries, needed by other programs.
+
+Package: libnl-tiny
+Version: 0.1-3
+Depends: libc
+Provides: 
+Source: package/libnl-tiny
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 12766
+Filename: libnl-tiny_0.1-3_atheros.ipk
+Size: 13383
+MD5Sum: 520c6be1555dca7bfb39a9ab785b41aa
+Description:  This package contains a stripped down version of libnl
+
+Package: libopenssl
+Version: 1.0.1h-1
+Depends: libc, zlib
+Provides: 
+Source: package/openssl
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 637400
+Filename: libopenssl_1.0.1h-1_atheros.ipk
+Size: 630700
+MD5Sum: 689b922f9a98ca5cedb5e2284241983b
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the Secure
+ Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well
+ as a full-strength general purpose cryptography library.
+ This package contains the OpenSSL shared libraries, needed by other programs.
+
+Package: libpthread
+Version: 0.9.33.2-1
+Depends: libgcc
+Provides: 
+Source: package/toolchain
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 31032
+Filename: libpthread_0.9.33.2-1_atheros.ipk
+Size: 31641
+MD5Sum: 8dadc083b7252f77ac1e2b635a292ff1
+Description:  POSIX thread library
+
+Package: librt
+Version: 0.9.33.2-1
+Depends: libpthread
+Provides: 
+Source: package/toolchain
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 4863
+Filename: librt_0.9.33.2-1_atheros.ipk
+Size: 5460
+MD5Sum: 9408da7d8c1145cf7ff2b672bea0e2ec
+Description:  POSIX.1b RealTime extension library
+
+Package: libubox
+Version: 2013-10-19-734d28eb1a46358743cf8837c91e5d46695c3b91
+Depends: libc
+Provides: 
+Source: package/libubox
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 13127
+Filename: libubox_2013-10-19-734d28eb1a46358743cf8837c91e5d46695c3b91_atheros.ipk
+Size: 13786
+MD5Sum: 5fadc2f8062f23dc9936a31d32039cc2
+Description:  Basic utility library
+
+Package: libubus-lua
+Version: 2013-08-08-b20a8a01c7faea5bcc9d34d10dcf7736589021b8
+Depends: libc, libubus, liblua
+Provides: 
+Source: package/ubus
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 4915
+Filename: libubus-lua_2013-08-08-b20a8a01c7faea5bcc9d34d10dcf7736589021b8_atheros.ipk
+Size: 5549
+MD5Sum: 3d81be7691c87c2a296cb3426607bc42
+Description:  Lua binding for the OpenWrt RPC client
+
+Package: libubus
+Version: 2013-08-08-b20a8a01c7faea5bcc9d34d10dcf7736589021b8
+Depends: libc, libubox
+Provides: 
+Source: package/ubus
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 11670
+Filename: libubus_2013-08-08-b20a8a01c7faea5bcc9d34d10dcf7736589021b8_atheros.ipk
+Size: 12262
+MD5Sum: 2d2b0c552bbd42218507587181e416ed
+Description:  OpenWrt RPC client library
+
+Package: libuci-lua
+Version: 2013-06-11.1-1
+Depends: libc, libuci, liblua
+Provides: 
+Source: package/uci
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 6190
+Filename: libuci-lua_2013-06-11.1-1_atheros.ipk
+Size: 6814
+MD5Sum: a1927438ba4e0b478f24a48c5686e518
+Description:  Lua plugin for UCI
+
+Package: libuci
+Version: 2013-06-11.1-1
+Depends: libc, libubox
+Provides: 
+Source: package/uci
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 16284
+Filename: libuci_2013-06-11.1-1_atheros.ipk
+Size: 16894
+MD5Sum: 4ea8682c3536e64c69e7081cd3b6983b
+Description:  C library for the Unified Configuration Interface (UCI)
+
+Package: libxtables
+Version: 1.4.10-5
+Depends: libc
+Provides: 
+Source: package/iptables
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 9941
+Filename: libxtables_1.4.10-5_atheros.ipk
+Size: 10568
+MD5Sum: 9cd1e7a50b89b984305b527e24e1ee40
+Description:  IPv4/IPv6 firewall - shared xtables library
+
+Package: lua
+Version: 5.1.4-8
+Depends: libc, liblua
+Provides: 
+Source: package/lua
+Section: lang
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 4708
+Filename: lua_5.1.4-8_atheros.ipk
+Size: 5396
+MD5Sum: f9a38c40f912b6c49369a646a8d0f5ad
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua language interpreter.
+
+Package: luasec
+Version: 0.4-1
+Depends: libc, lua, libopenssl, luasocket
+Provides: 
+Source: feeds/openwrt/lang/luasec
+Section: lang
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 11501
+Filename: luasec_0.4-1_atheros.ipk
+Size: 12167
+MD5Sum: 6c5db96dbae391cef919ef7fed4c380e
+Description:  LuaSec is a binding for OpenSSL library to provide TLS/SSL communication.
+
+Package: luasocket
+Version: 2.0.2-3
+Depends: libc, lua
+Provides: 
+Source: feeds/openwrt/lang/luasocket
+Section: lang
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 32270
+Filename: luasocket_2.0.2-3_atheros.ipk
+Size: 32991
+MD5Sum: f3281841d69cdb37f3a57273f23a8341
+Description:  LuaSocket is the most comprehensive networking support
+ library for the Lua language. It provides easy access to
+ TCP, UDP, DNS, SMTP, FTP, HTTP, MIME and much more.
+
+Package: luci-app-firewall
+Version: svn-r10528-1
+Depends: libc, firewall
+Provides: 
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: atheros
+Installed-Size: 62654
+Filename: luci-app-firewall_svn-r10528-1_atheros.ipk
+Size: 63404
+MD5Sum: 5c9bfc2171eda15b2385f80bb77761af
+Description:  Firewall and Portforwarding application
+
+Package: luci-app-peopleswifi
+Version: 0.0.1-HEAD
+Depends: libc, luci-lib-json, luci-mod-admin-core, luci-lib-httpclient, luci-theme-bootstrap
+Provides: 
+Source: feeds/peopleswifi/luci/luci-app-peopleswifi
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 7258
+Filename: luci-app-peopleswifi_0.0.1-HEAD_atheros.ipk
+Size: 8315
+MD5Sum: bbb685bd261bde56053713d3cd58e365
+Description:  Peoples Wifi Mesh Node Admin
+
+Package: luci-base
+Version: svn-r10528-1
+Depends: libc, lua, libuci-lua, libubus-lua
+Provides: 
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: atheros
+Installed-Size: 140736
+Filename: luci-base_svn-r10528-1_atheros.ipk
+Size: 141492
+MD5Sum: f0ea84918ba285e3adfc1fe27b54225c
+Description:  LuCI core libraries
+
+Package: luci-lib-httpclient
+Version: svn-r10528-1
+Depends: libc, luci-base, luci-base, luci-lib-nixio
+Provides: 
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: atheros
+Installed-Size: 4908
+Filename: luci-lib-httpclient_svn-r10528-1_atheros.ipk
+Size: 5527
+MD5Sum: 0f869222b178a91824cf96e042229431
+Description:  HTTP(S) client library
+
+Package: luci-lib-json
+Version: svn-r10528-1
+Depends: libc
+Provides: 
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: atheros
+Installed-Size: 4053
+Filename: luci-lib-json_svn-r10528-1_atheros.ipk
+Size: 4684
+MD5Sum: 8d230f0d7042fe8a5fea94308926ba95
+Description:  LuCI JSON library
+
+Package: luci-lib-nixio
+Version: svn-r10528-1
+Depends: libc, luci-base
+Provides: 
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: atheros
+Installed-Size: 29152
+Filename: luci-lib-nixio_svn-r10528-1_atheros.ipk
+Size: 29559
+MD5Sum: 1dd4a77be45e2c2304b3e59427eb760d
+Description:  NIXIO POSIX library
+
+Package: luci-mod-admin-full
+Version: svn-r10528-1
+Depends: libc, luci-base
+Provides: 
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: atheros
+Installed-Size: 68215
+Filename: luci-mod-admin-full_svn-r10528-1_atheros.ipk
+Size: 68955
+MD5Sum: 3dd0e838db04c7450f2b931121c093b0
+Description:  LuCI Administration - full-featured for full control
+
+Package: luci-theme-bootstrap
+Version: svn-r10528-1
+Depends: libc
+Provides: 
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: atheros
+Installed-Size: 13084
+Filename: luci-theme-bootstrap_svn-r10528-1_atheros.ipk
+Size: 13814
+MD5Sum: 1bac580c9de4921fc108d905bc49fa0a
+Description:  Bootstrap Theme (default)
+
+Package: mdnssd-min
+Version: 0.0.1-HEAD
+Depends: libc
+Provides: 
+Source: feeds/peopleswifi/net/mdnssd-min
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 6296
+Filename: mdnssd-min_0.0.1-HEAD_atheros.ipk
+Size: 7009
+MD5Sum: 7897d56448d2f8c5a6f4e2d3dc75549b
+Description:  This package is a minimal mDNS and DNS-SD client
+ that is supposed to be run for one-off queries
+ asking for a service type and resulting in
+ one or more hostname+ip+port triplets as answers.
+
+Package: mtd
+Version: 18.1
+Depends: libc
+Provides: 
+Source: package/mtd
+Section: utils
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 9453
+Filename: mtd_18.1_atheros.ipk
+Size: 10134
+MD5Sum: ec4a2c0e0fbb1acd40159404e80ae73e
+Description:  This package contains an utility useful to upgrade from other firmware or
+ older OpenWrt releases.
+
+Package: netifd
+Version: 2013-07-16-2674941b06c1ec67f1aff1bff9212e1372106641
+Depends: libc, libuci, libnl-tiny, libubus, ubus, ubusd, jshn
+Provides: 
+Source: package/netifd
+Section: base
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 45584
+Filename: netifd_2013-07-16-2674941b06c1ec67f1aff1bff9212e1372106641_atheros.ipk
+Size: 45735
+MD5Sum: 8815445309d536b169d48051335b58ef
+Description:  OpenWrt Network Interface Configuration Daemon
+
+Package: ntpclient
+Version: 2007_365-4
+Depends: libc, librt
+Provides: 
+Source: feeds/openwrt/net/ntpclient
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 11813
+Filename: ntpclient_2007_365-4_atheros.ipk
+Size: 12465
+MD5Sum: 114ce13bb9c482149e373976217eaa4b
+Description:  NTP client for setting system time from NTP servers.
+
+Package: openwrt-firmware-config
+Version: 0.0.1-HEAD
+Depends: libc
+Provides: 
+Source: feeds/peopleswifi/base/openwrt-firmware-config
+Section: base
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 310
+Filename: openwrt-firmware-config_0.0.1-HEAD_atheros.ipk
+Size: 1188
+MD5Sum: 8d3a16438787c7d2f0d3f10441729b16
+Description:  This is a simple package for putting settings on the sudomesh firmware
+ The node configurator server will run afterwards - these are just initial settings.
+
+Package: opkg
+Version: 9c97d5ecd795709c8584e972bfdf3aee3a5b846d-3
+Depends: libc
+Provides: 
+Source: package/opkg
+Section: base
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: atheros
+Installed-Size: 57276
+Filename: opkg_9c97d5ecd795709c8584e972bfdf3aee3a5b846d-3_atheros.ipk
+Size: 57776
+MD5Sum: 9f7eb1be39077dfa43e6ca295f0d9215
+Description:  Lightweight package management system
+ opkg is the opkg Package Management System, for handling
+ installation and removal of packages on a system. It can
+ recursively follow dependencies and download all packages
+ necessary to install a particular package.
+ 
+ opkg knows how to install both .ipk and .deb packages.
+
+Package: ppp-mod-pppoe
+Version: 2.4.5-10
+Depends: libc, kmod-pppoe
+Provides: 
+Source: package/ppp
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: atheros
+Installed-Size: 8465
+Filename: ppp-mod-pppoe_2.4.5-10_atheros.ipk
+Size: 9102
+MD5Sum: 5b6be9bd0ef18462c19438a08fb5b931
+Description:  This package contains a PPPoE (PPP over Ethernet) plugin for ppp.
+
+Package: ppp
+Version: 2.4.5-10
+Depends: libc, kmod-ppp
+Provides: 
+Source: package/ppp
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: atheros
+Installed-Size: 106029
+Filename: ppp_2.4.5-10_atheros.ipk
+Size: 106250
+MD5Sum: 47318404abe34bada1b9cd98b3fdb226
+Description:  This package contains the PPP (Point-to-Point Protocol) daemon.
+
+Package: swconfig
+Version: 10
+Depends: libc, libuci, libnl-tiny
+Provides: 
+Source: package/swconfig
+Section: base
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 7077
+Filename: swconfig_10_atheros.ipk
+Size: 7723
+MD5Sum: 0f4c31dbfab230177c984f8c49bb0844
+Description:  Switch configuration utility
+
+Package: tc
+Version: 3.3.0-2
+Depends: libc, kmod-sched-core
+Provides: 
+Source: package/iproute2
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 95042
+Filename: tc_3.3.0-2_atheros.ipk
+Size: 95601
+MD5Sum: 121326e514940ae2d1f168e49c5e0e15
+Description:  Traffic control utility
+
+Package: tunneldigger
+Version: 0.3-1
+Depends: libc, libnl-tiny, kmod-l2tp, kmod-l2tp-ip, kmod-l2tp-eth, librt
+Provides: 
+Source: feeds/wlanslovenija/net/tunneldigger
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 12859
+Filename: tunneldigger_0.3-1_atheros.ipk
+Size: 13475
+MD5Sum: b62113ed30096a2c233324eae1452496
+Description:  L2TPv3 tunnel broker client
+
+Package: ubus
+Version: 2013-08-08-b20a8a01c7faea5bcc9d34d10dcf7736589021b8
+Depends: libc, libubus, libblobmsg-json, ubusd
+Provides: 
+Source: package/ubus
+Section: base
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 3443
+Filename: ubus_2013-08-08-b20a8a01c7faea5bcc9d34d10dcf7736589021b8_atheros.ipk
+Size: 4115
+MD5Sum: 60aa338f617b2e9267a3a7838d8781f4
+Description:  OpenWrt RPC client utility
+
+Package: ubusd
+Version: 2013-08-08-b20a8a01c7faea5bcc9d34d10dcf7736589021b8
+Depends: libc, libubox
+Provides: 
+Source: package/ubus
+Section: base
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 7431
+Filename: ubusd_2013-08-08-b20a8a01c7faea5bcc9d34d10dcf7736589021b8_atheros.ipk
+Size: 8110
+MD5Sum: ed5dcc035ba9247efbe0b193990803da
+Description:  OpenWrt RPC daemon
+
+Package: uci
+Version: 2013-06-11.1-1
+Depends: libc, libuci
+Provides: 
+Source: package/uci
+Section: base
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 6774
+Filename: uci_2013-06-11.1-1_atheros.ipk
+Size: 7462
+MD5Sum: d29e182f13bdf85e0664dacad7710900
+Description:  Utility for the Unified Configuration Interface (UCI)
+
+Package: uhttpd-mod-ubus
+Version: 2012-10-30-e57bf6d8bfa465a50eea2c30269acdfe751a46fd
+Depends: libc, uhttpd, libubus, libblobmsg-json
+Provides: 
+Source: package/uhttpd
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 7243
+Filename: uhttpd-mod-ubus_2012-10-30-e57bf6d8bfa465a50eea2c30269acdfe751a46fd_atheros.ipk
+Size: 8005
+MD5Sum: daf894144e8d304781886023a8a6ee3c
+Description:  The ubus plugin adds a HTTP/JSON RPC proxy for ubus and publishes the
+ session.* namespace and procedures.
+
+Package: uhttpd
+Version: 2012-10-30-e57bf6d8bfa465a50eea2c30269acdfe751a46fd
+Depends: libc, libubox
+Provides: 
+Source: package/uhttpd
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 18947
+Filename: uhttpd_2012-10-30-e57bf6d8bfa465a50eea2c30269acdfe751a46fd_atheros.ipk
+Size: 19648
+MD5Sum: 3d3cc55f7700ae11f14f710297664a99
+Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
+ support. It is intended as a drop-in replacement for the Busybox
+ HTTP daemon.
+
+Package: wireless-tools
+Version: 29-5
+Depends: libc
+Provides: 
+Source: package/wireless-tools
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 22440
+Filename: wireless-tools_29-5_atheros.ipk
+Size: 23045
+MD5Sum: 5d9426c3ba5da0426e1b1efa7c97845a
+Description:  This package contains a collection of tools for configuring wireless
+ adapters implementing the "Linux Wireless Extensions".
+
+Package: wpad-mini
+Version: 20131120-1
+Depends: libc, libnl-tiny, libubus
+Provides: 
+Source: package/hostapd
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 197162
+Filename: wpad-mini_20131120-1_atheros.ipk
+Size: 197263
+MD5Sum: c9bb6227544152f70f982655481c7367
+Description:  This package contains a minimal IEEE 802.1x/WPA Authenticator and Supplicant (WPA-PSK only).
+
+Package: zlib
+Version: 1.2.7-1
+Depends: libc
+Provides: 
+Source: package/zlib
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: atheros
+Installed-Size: 39953
+Filename: zlib_1.2.7-1_atheros.ipk
+Size: 40613
+MD5Sum: a882e6d285e9ae539aa28e3333d9c33f
+Description:  Library implementing the deflate compression method
+

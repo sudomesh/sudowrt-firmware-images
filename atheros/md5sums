@@ -1,0 +1,12 @@
+ab38f4241bb60774a0ea5b1a6507a0de *openwrt-atheros-combined.jffs2-128k.img
+64a24dc251dc25d77eb0d466f5ea25ae *openwrt-atheros-combined.jffs2-64k.img
+346b85ec5f66b1b448fc0911a593ac04 *openwrt-atheros-combined.squashfs.img
+fc67eb426b0bcb603978e3b7aba81175 *openwrt-atheros-root.jffs2-128k
+aa3a92ad47df4232e17d6fa9d9fe3211 *openwrt-atheros-root.jffs2-64k
+f2459a21f6610e556db1ad2d74472683 *openwrt-atheros-root.squashfs
+23a7c8f710e02d8616a4ef020d390934 *openwrt-atheros-ubnt2-pico2-jffs2-128k.bin
+94522f977d768e504b968cf1ecce7ba8 *openwrt-atheros-ubnt2-pico2-jffs2-64k.bin
+49305a1126624f26da8075d7a61e25ce *openwrt-atheros-ubnt2-pico2-squashfs.bin
+695e21c8d860dedd1ec36ef9ef15536f *openwrt-atheros-vmlinux.elf
+386cdf9a763ac829e16984b7963f8359 *openwrt-atheros-vmlinux.gz
+4560b7bbb06951962faa20efecae8a26 *openwrt-atheros-vmlinux.lzma
